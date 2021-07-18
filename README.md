@@ -28,10 +28,30 @@ You can also import it locally like so in any component:
 import BButton from 'bootstrap-vue-3-wrappers'
 ```
 
-and use it!
+
+Dont forget to add Bootstrap 5 to your Vu3 3 Project
 
 
-## List of Components:
+```
+yarn add bootstrap
+
+```
+
+and then in your main.js / main.ts
+
+```javascript
+import 'bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css'
+```
+
+If you use typescript add a vendor.d.ts file for the package:
+
+```javascript
+declare module 'bootstrap-vue-3-wrappers'
+```
+
+
+## List of Components (work in progress):
 ```html
 <b-alert></b-alert>
 <b-button></b-button>

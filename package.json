@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-vue-3-wrappers",
   "description": "Vue 3 wrapper components with bootstrap 5",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "private": false,
   "license": "MIT",
   "author": {

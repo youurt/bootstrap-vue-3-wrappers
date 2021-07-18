@@ -3,7 +3,7 @@ import 'mutationobserver-shim'
 import { createApp } from 'vue'
 import App from './App.vue'
 import bootstrapVue from '@/plugins/bootstrapVue'
-import ToastPlugin from '@/plugins/ToastPlugin'
+// import ToastPlugin from '@/plugins/ToastPlugin'
 
 // todo bootstrap variables
 import 'bootstrap/dist/css/bootstrap.min.css'
